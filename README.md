@@ -1,6 +1,6 @@
-<img align="right" src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
-
 # UTC to Local Time Converter - Utility Package
+
+<img align="right" src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
 
 - Version: v1.0 | 20240404
 - Contact: michael.akridge@noaa.gov
