@@ -20,7 +20,7 @@
 2. Import utc to local timezone function(s)
 
 ## Global Timezone Boundaries Dataset
-<img align="right" src="./docs/screenshots/s01a.png" alt="Map of Timezones" width="750px" >
+<img src="./docs/screenshots/s01a.png" alt="Map of Timezones" width="750px" >
 
 ### Timezones Dataset Details: 
 - This dataset has over 400 time zone boundaries and IDs for the world
@@ -53,7 +53,7 @@ WHERE
 ### See the [NOTES.md](./NOTES.md) for more details on SDO (Spatial Data Option) functions
 
 ## UTC Offset Boundaries Dataset
-<img align="right" src="./docs/screenshots/s05.png" alt="Map of Timezones" width="750px">
+<img src="./docs/screenshots/s05.png" alt="Map of Timezones" width="750px">
 
 ### Timezones Dataset Details: 
 - This dataset has ~120 time zone boundaries
