@@ -1,9 +1,9 @@
 # UTC to Local Time Converter - Utility Package
 
-<img align="right" src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
+<img src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
 
-- Version: v1.0 | 20240404
-- Contact: michael.akridge@noaa.gov
+#### Version: v1.0 | 20240404
+#### Contact: michael.akridge@noaa.gov
 
 ## Purpose:
 - To automatically convert a given database UTC time record to local time based on a datasets location
