@@ -1,32 +1,25 @@
-# UTC to Local Time Converter - Utility Package
-
+# INSTALL - UTC to Local Time Converter - Utility Package
 ## Requirements
 - System Requirements
-    - Oracle w/ oracle spatial 
-        - included in all oracle databases since 2019 - https://blogs.oracle.com/oraclespatial/post/spatial-now-included-with-all-editions-of-oracle-database
-
-- Dataset requirements(simple):
-    - UTC data column
-    - Location data columns
-        - lat
-        - long
+    - Oracle w/ oracle spatial
+## Download Files
+View latest release: https://github.com/MichaelAkridge-NOAA/UTC-to-Local-Time-Utility/releases/
 ## Setup
 1. Import timezone tables into schema
 2. Import utc to local timezone function(s)
 
 
 ## Example Installs
-### Example | Install Timezone Data Table via Data pump util: 
+### Example | Install Timezone Data Table(s) via Data pump util: 
 - can be used via sql dev wizard or via command line
-- dump file can be found in this repo and under the following path
-- "./utc-to-local/install/data_pump/EXPDAT01-00_51_06.DMP"
+- file "./EXPDAT01-18_54_12.DMP"
 
 ```
 impdp username/password DIRECTORY=directory DUMPFILE=EXPDAT01-00_51_06.DMP TABLE_EXISTS_ACTION=REPLACE
 ```
-### Example | Install Timezone Data Table via shapefile & ArcGIS Pro
+### Example | Install Timezone Data Table(s) via shapefile & ArcGIS Pro
 - Importing a Shapefile into ArcGIS Pro (drag and drop or see below)
-    - unzip shape file found in ("./utc-to-local/data/UTL_TIMEZONE_LOCATIONS_shp.zip")
+    - unzip shape file found in ("./UTL_TIMEZONE_LOCATIONS_GLOBAL_SHP.zip")
     - Start ArcGIS Pro and open your project.
     - Add Data to Your Project:
     - Navigate to the “Map” tab on the top menu.
