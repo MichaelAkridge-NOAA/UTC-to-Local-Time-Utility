@@ -28,8 +28,8 @@
 - Ocean time zones from Etc/GMT+12 to Etc/GMT-12 are available where there is no specific timezone boundary
 
 ## Spatial query example | Global Timezone Boundaries Dataset
-- Table: UTL_TIMEZONE_LOCATIONS_GLOBAL
-- Function: f_convert_utc_to_local_global
+- Function: [f_convert_utc_to_local_global](./install/F_CONVERT_UTC_TO_LOCAL_GLOBAL.sql)
+- Table: [UTL_TIMEZONE_LOCATIONS_GLOBAL](./INSTALL.md)
 #### Local Time & Daylight Savings Time(DST) is Auto Calculated
 - Time zone offset is Auto Calculated based on
     - a supplied UTC(date/time) data column
@@ -71,9 +71,8 @@ WHERE
 - Uses UTC offset to create local time
 
 ## Spatial query example | UTC Offset Boundaries Dataset
-- Table: UTL_TIMEZONE_LOCATIONS_UTC
-- Function: f_convert_utc_to_local_offset
-
+- Function: - [F_CONVERT_UTC_TO_LOCAL_OFFSET](./install/F_CONVERT_UTC_TO_LOCAL_OFFSET.sql)
+- Table: [UTL_TIMEZONE_LOCATIONS_UTC](./INSTALL.md)
 ```
 SELECT 
     a.OBJECTID, 
