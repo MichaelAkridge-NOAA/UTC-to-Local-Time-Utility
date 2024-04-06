@@ -1,4 +1,4 @@
-# UTC to Local Time Converter - Utility Package
+# UTC to Local Time Converter - Utility 
 
 <img src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
 
