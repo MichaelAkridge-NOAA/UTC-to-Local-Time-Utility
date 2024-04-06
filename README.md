@@ -16,7 +16,7 @@
 - System: Oracle w/ [oracle spatial ](https://blogs.oracle.com/oraclespatial/post/spatial-now-included-with-all-editions-of-oracle-database)
 - Dataset: UTC data column & Location data columns (lat,long)
 #### Install (See the [INSTALL.md](./INSTALL.md) for more details)
-0. Download: https://github.com/MichaelAkridge-NOAA/UTC-to-Local-Time-Utility/releases/tag/v1.0
+0. Download: https://github.com/MichaelAkridge-NOAA/UTC-to-Local-Time-Utility/releases/
 1. Import timezone tables into schema
 2. Import utc to local timezone function(s)
 
