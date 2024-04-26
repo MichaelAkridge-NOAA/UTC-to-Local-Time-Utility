@@ -1,16 +1,17 @@
 # UTC to Local Time Converter - Utility 
-
-<img src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
+<img src="./docs/screenshots/repository-open-graph-01.png" alt="Map of Timezones" >
 
 #### Version: v1.0 | 20240404
 #### Contact: michael.akridge@noaa.gov
 
 ## Purpose:
 - To automatically convert a given database UTC time record to local time based on a datasets location
+<img src="./docs/screenshots/s_map_01.gif" alt="Map of Timezones" >
 
 ## Overview
 - Uses a query to find records that spatially correspond to areas defined in timezone spatial table, essentially determining the time zone (tzid) for each record based on its geographic location. 
 - This allows for converting UTC time to the local time using a custom function (convert_utc_to_local), which takes the UTC time and the time zone ID or offset to perform the conversion.
+
 ## Setup
 #### Requirements
 - System: Oracle w/ [oracle spatial ](https://blogs.oracle.com/oraclespatial/post/spatial-now-included-with-all-editions-of-oracle-database)
